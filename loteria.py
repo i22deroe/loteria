@@ -16,7 +16,7 @@ def loteria(numeros):
         for n in numeros:
             res = dict(eval(r.get(url+'?n={}'.format(n)).text[9:]))
             if res['premio']:
-                print("[{}]: ¡PREMIO AL NÚMERO {}: {}!".format(dt.now(), n, res['premio']))
+                print("\007[{}]: ¡PREMIO AL NÚMERO {}: {}!".format(dt.now(), n, res['premio']))
                 numeros.remove(n)
             time.sleep(WAIT_TIME)
     else:
