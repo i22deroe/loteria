@@ -18,7 +18,7 @@ def loteria(numeros):
             if res['premio']:
                 print("\007[{}]: ¡PREMIO AL NÚMERO {}: {}!".format(dt.now(), n, res['premio']))
                 numeros.remove(n)
-            time.sleep(WAIT_TIME)
+        time.sleep(WAIT_TIME)
     else:
         print("El sorteo ha terminado.")
         return(0)
