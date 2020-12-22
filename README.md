@@ -5,6 +5,11 @@ You need to install requests library in order to work.
 ```bash
 pip install requests
 ```
+or just
+```bash
+pip install -r requirements.txt 
+```
+
 
 Use it through command line.
 
