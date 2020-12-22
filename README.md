@@ -1,6 +1,11 @@
 # loteria
 Simple script to check numbers using ElPais Loteria de Navidad API
 
+You need to install requests library in order to work.
+```bash
+pip install requests
+```
+
 Use it through command line.
 
 Example:
